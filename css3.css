@@ -1,21 +1,17 @@
-/*Laura Robinson's Coding Dojo CSS Exercise 3*/
+/*Amyr, Eleanor, and Laura's Coding Dojo CSS Exercise 3*/
+*{
+    font: inherit;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+} 
+ol, ul {
+    list-style: none;
+    font-size: 11px;
+    margin-left: 20px;
+}
 #container{
 	background-color: grey;
 	width:960px;
-	/*overflow: hidden;
-	height: auto;*/
-}
-#box-1, #box-2, #box-3{
-	background-color: green;
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
-	margin: 0 20px;
-	padding: 20px;
-}
-#box-1, #box-2, #box-3{
-	float:right;
-}
-.clear{
-	clear: both;
 }
