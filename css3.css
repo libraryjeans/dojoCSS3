@@ -1,17 +1,94 @@
 /*Amyr, Eleanor, and Laura's Coding Dojo CSS Exercise 3*/
 *{
     font: inherit;
+    font-family: arial, verdana, sans-serif;
     font-size: 100%;
     margin: 0px;
     padding: 0px;
     vertical-align: baseline;
+}
+h1{
+    font-size: none;
 } 
 ol, ul {
     list-style: none;
-    font-size: 11px;
     margin-left: 20px;
+    font-size: none;
 }
+
 #container{
-	background-color: grey;
 	width:960px;
+    margin:0px auto;
 }
+
+#header{
+
+}
+    #header #logo{
+        width: 450px ;
+        height: 125px;
+        float: left;
+    }
+        #header #logo img {
+            padding-top: 40px;
+        }
+    #header #menu{
+        width: 500px;
+        height: 125px;
+        float:left;
+    }
+
+        #header #menu ul {
+            width: 350px;
+            height: 25px;
+            background-color: rgb(249,249,249);
+            border: 1px solid rgb(234,234,234);
+            border-top: 0px;
+            border-radius:0px 0px 5px 5px;
+            margin-left: 50px;
+            display: inline;
+            padding: 5px 0px 8px 8px;
+            font-size: 11px;
+        }
+
+            #header #menu ul li {
+                display: inline;
+                border-right: 1px solid grey;
+                padding:0px 8px;
+                color: grey;
+            }
+
+            #header #menu ul li:last-child {
+                border-right: 0px;
+            }
+
+        #header #menu a.btn {
+            margin-left: 25px;
+            padding: 2px 17px 7px 17px;
+            color:white;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+    #header h1 {
+        clear:both;
+        height: 60px;
+        font-size: 23px;
+        color: white;
+        padding-left: 10px;
+        line-height: 60px; /*vertical align for text*/
+
+    }
+
+a.btn-blue {
+    border:1px solid rgb(116,174,203);
+    border-radius: 4px;
+    background: linear-gradient(to top, rgb(24,122,175) 49%, rgb(24,122,175) 50%, rgb(66,152,199) 88%);
+}
+
+h1.banner {
+    border:1px solid rgb(116,174,203);
+    background: linear-gradient(to bottom, rgb(20,108,156) 7%, rgb(66,150,199) 50%, rgb(20,108,156) 93%);
+}
+
+
