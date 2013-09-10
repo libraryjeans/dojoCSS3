@@ -53,9 +53,9 @@ ol, ul {
 
             #header #menu ul li {
                 display: inline;
-                border-right: 1px solid grey;
+                border-right: 1px solid gray;
                 padding:0px 8px;
-                color: grey;
+                color: gray;
             }
 
             #header #menu ul li:last-child {
@@ -79,6 +79,8 @@ ol, ul {
         line-height: 60px; /*vertical align for text*/
 
     }
+    
+    
 
 a.btn-blue {
     border:1px solid rgb(116,174,203);
@@ -91,6 +93,7 @@ h1.banner {
     background: linear-gradient(to bottom, rgb(20,108,156) 7%, rgb(66,150,199) 50%, rgb(20,108,156) 93%);
 }
 
+<<<<<<< HEAD
 /*Eleanor*/
 
 #main-content
@@ -207,4 +210,75 @@ h1.banner {
         top:1px;
     }
 
+=======
+/*Amyr's CSS starts below here*/
+element.style{
+    color: blue;
+    font-size: 20;
+}
+>>>>>>> amyr
 
+#ads {
+    width:230px;
+    margin-top: 52px;
+    margin-left: 10px;
+    float: left;
+}
+    #demo {
+        width: 290px;
+        border-bottom: 1px solid #BEBEBE;
+        padding-bottom: 9px;
+    }
+    #demo p.header {
+        font-size: 18px;
+        color: blue;
+    }
+    #demo h4 {
+        color: red;
+        margin-top: 9px;
+    }
+    #demo a {
+        text-decoration: none;
+        color: blue;
+    }
+    #demo p {
+        margin-top: 3px;
+    }
+    #demo a.schedule {
+        margin-top: 22px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-image: -webkit-linear-gradient(bottom, #0075A8 0%, #00A0DB 100%);        
+        display: block;
+        text-align: center;
+        padding: 6px 0px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #BEBEBE;
+    }
+    #demo a.free {
+        margin-top: 4px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-image: -webkit-linear-gradient(bottom, #CC4A12 0%, #FF9F43 100%);
+        display: block;
+        text-align: center;
+        padding: 6px 0px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #BEBEBE;
+    }
+    #demo a.schedule:hover {
+        background-image: -webkit-linear-gradient(top, #0075A8 0%, #00A0DB 100%);       
+    }
+    #demo a.free:hover {
+        background-image: -webkit-linear-gradient(top, #CC4A12 0%, #FF9F43 100%);
+    }
+    #demo p.credit.com {
+        text-align: center;
+    }
+    #demo p.ruler {
+        margin-top: 9px;
+    }
