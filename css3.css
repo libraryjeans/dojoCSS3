@@ -93,16 +93,91 @@ h1.banner {
     background: linear-gradient(to bottom, rgb(20,108,156) 7%, rgb(66,150,199) 50%, rgb(20,108,156) 93%);
 }
 
-<<<<<<< HEAD
-/*Eleanor*/
+/*Amyr's CSS starts below here*/
+element.style{
+    color: blue;
+    font-size: 20;
+}
+
+#ads {
+    width:230px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    /*border:1px solid black;*/
+}
+    #demo {
+        /*width: 290px;*/
+        border-bottom: 1px solid #BEBEBE;
+        padding:30px 0px 10px 10px;
+    }
+    #demo p.header {
+        font-size: 18px;
+        color: #137ABE;
+    }
+    #demo h4 {
+        color: red;
+        margin-top: 9px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #demo a {
+        text-decoration: none;
+        color: #137ABE;
+    }
+    #demo p {
+        margin-top: 3px;
+        font-size: 13px;
+    }
+    #demo a.schedule {
+        margin-top: 22px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-image: -webkit-linear-gradient(bottom, #0075A8 0%, #00A0DB 100%);        
+        display: block;
+        text-align: center;
+        padding: 6px 0px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #BEBEBE;
+    }
+    #demo a.free {
+        margin-top: 4px;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-image: -webkit-linear-gradient(bottom, #CC4A12 0%, #FF9F43 100%);
+        display: block;
+        text-align: center;
+        padding: 6px 0px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid #BEBEBE;
+    }
+    #demo a.schedule:hover {
+        background-image: -webkit-linear-gradient(top, #0075A8 0%, #00A0DB 100%);       
+    }
+    #demo a.free:hover {
+        background-image: -webkit-linear-gradient(top, #CC4A12 0%, #FF9F43 100%);
+    }
+    #demo p.credit {
+        text-align: center;
+    }
+    #demo p.ruler {
+        margin-top: 9px;
+    }
+
+    /*Eleanor*/
 
 #main-content
 {
     clear:top;
-    float: right;
+    float: left;
     min-height: 400px;
-    width: 710px;
-    margin-left: 160;
+    width: 650px;
+    margin: 20px 0px 0px 50px;
+    /*margin-left: 160;*/
     /*border: 3px solid red;*/
 }
 
@@ -208,77 +283,4 @@ h1.banner {
     {
         position:relative;
         top:1px;
-    }
-
-=======
-/*Amyr's CSS starts below here*/
-element.style{
-    color: blue;
-    font-size: 20;
-}
->>>>>>> amyr
-
-#ads {
-    width:230px;
-    margin-top: 52px;
-    margin-left: 10px;
-    float: left;
-}
-    #demo {
-        width: 290px;
-        border-bottom: 1px solid #BEBEBE;
-        padding-bottom: 9px;
-    }
-    #demo p.header {
-        font-size: 18px;
-        color: blue;
-    }
-    #demo h4 {
-        color: red;
-        margin-top: 9px;
-    }
-    #demo a {
-        text-decoration: none;
-        color: blue;
-    }
-    #demo p {
-        margin-top: 3px;
-    }
-    #demo a.schedule {
-        margin-top: 22px;
-        color: white;
-        font-size: 14px;
-        text-transform: uppercase;
-        background-image: -webkit-linear-gradient(bottom, #0075A8 0%, #00A0DB 100%);        
-        display: block;
-        text-align: center;
-        padding: 6px 0px;
-        font-weight: bold;
-        border-radius: 5px;
-        border: 1px solid #BEBEBE;
-    }
-    #demo a.free {
-        margin-top: 4px;
-        color: white;
-        font-size: 14px;
-        text-transform: uppercase;
-        background-image: -webkit-linear-gradient(bottom, #CC4A12 0%, #FF9F43 100%);
-        display: block;
-        text-align: center;
-        padding: 6px 0px;
-        font-weight: bold;
-        border-radius: 5px;
-        border: 1px solid #BEBEBE;
-    }
-    #demo a.schedule:hover {
-        background-image: -webkit-linear-gradient(top, #0075A8 0%, #00A0DB 100%);       
-    }
-    #demo a.free:hover {
-        background-image: -webkit-linear-gradient(top, #CC4A12 0%, #FF9F43 100%);
-    }
-    #demo p.credit.com {
-        text-align: center;
-    }
-    #demo p.ruler {
-        margin-top: 9px;
     }
